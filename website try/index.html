@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BClothing</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; scroll-behavior: smooth; }
+        header { background: #000; color: #fff; padding: 1em 0; text-align: center; position: sticky; top: 0; z-index: 1000; }
+        header nav a { color: white; margin: 0 15px; text-decoration: none; }
+        header nav a:hover { color: #f0c040; }
+        section { padding: 60px 20px; }
+        #about { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+        #about .text, #about .image { flex: 1; padding: 20px; }
+        #about img { max-width: 100%; height: auto; }
+        .team-container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .team-member { border: 1px solid #ccc; border-radius: 8px; padding: 10px; text-align: center; width: 200px; }
+        .team-member img { width: 100%; height: auto; border-radius: 8px; }
+        form { max-width: 600px; margin: auto; display: flex; flex-direction: column; gap: 10px; }
+        form input, form textarea { padding: 10px; font-size: 1em; }
+        form button { padding: 10px; background: #000; color: #fff; border: none; cursor: pointer; }
+        .sponsors { display: flex; justify-content: center; gap: 30px; padding-top: 20px; }
+        .sponsors img { height: 40px; }
+        .login-button { position: absolute; top: 20px; right: 20px; background: #f0c040; padding: 5px 10px; border-radius: 4px; text-decoration: none; color: #000; font-weight: bold; }
+    </style>
+</head>
+<body bgcolor="#FFFDD0">
+    <header>
+        <a href="login.html" class="login-button">Login</a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1 style="font-family: literata; font-size: 35px;">Clothing Line</h1>
+        <p style="font-family: sans-serif;"><i>Where you make yourself shine.</p>
+    </section>
+
+<div style="margin-top: 20px; text-align: center;">
+            <img src="img/generative-ai-cloth-store-aesthetic-background-of-clothes-hanging-on-hangers-muted-neutral-colors-photo (1).jpg" alt="Our Services Image" style="max-width: 100%; height: auto;">
+            </div>
+
+    <section id="about">
+        <div class="text">
+            <h2 style="font-family:verdana">About Us</h2>
+            <p><em>We are a group of 3rd Year Computer Engineering students from the University of Batangas Lipa Campus. Our sole objective is to improve the traditional style of websites in terms of online shopping, specifically those from clothing lines.</em></p>
+            <ul>
+                <li>✔️ Our website aims to be more user friendly. The clothing selections auto-sort itself according to the user's style and needs.</li>
+                <li>✔️ Easier to access, even kids can do it.</li>
+                <li>✔️ Integration of management interface and ordering system within the website.</li>
+            </ul>
+            <p>Our ultimate goal is to improve user experience and deliver a more efficient way of online shopping, making it more fun!</p>
+        </div>
+        <div class="image">
+            <img src="img/clothes.jpg"
+        </div>
+    </section>
+
+    <section id="services" class="section-padding">
+        <div class="container">
+            <h2 style="font-family:verdana">Services</h2>
+            <p>We offer a platform for buying, managing, and organizing clothing orders online. Admins can manage inventory and users can easily find what suits their style.</p>
+        
+        </div>
+        <div style="margin-top: 20px; text-align: center;">
+            <img src="img/services.jpg" alt="Our Services Image" style="max-width: 100%; height: auto;">
+            </div>
+    </section>
+
+    <section id="team">
+        <h2 style="font-family:verdana">Our Team</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="placeholder.jpg" alt="Member 1">
+                <h4>Insert Name and Picture</h4>
+                <p>Developer</p>
+            </div>
+            <div class="team-member">
+                <img src="placeholder.jpg" alt="Member 2">
+                <h4>Insert Name and Picture</h4>
+                <p>Developer</p>
+            </div>
+            <div class="team-member">
+                <img src="img/team/1x1 (1).png" alt="Dominic Ramos">
+                <h4>Dominic Ramos</h4>
+                <p>Developer</p>
+            </div>
+            <div class="team-member">
+                <img src="placeholder.jpg" alt="Member 4">
+                <h4>Insert Name and Picture</h4>
+                <p>Developer</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2><center>Contact Us</h2>
+        <p><center>Address: <em>Marauoy-Balete Road, Balintawak, Lipa City, Batangas 4217</em></p>
+        <p><center>Phone: <em>+63 999 123 4567</em></p>
+        <p><center>Email: <em>info@email.com</em></p>
+
+        <form action="mailto:your@email.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="sponsors">
+            <img src="img/clients/tiktok.png" alt="TikTok Shop">
+            <img src="img/clients/Zalora-logo-black.png" alt="Zalora">
+            <img src="img/clients/shein.png" alt="Shein">
+            <img src="img/clients/temu.png" alt="Temu">
+            <img src="img/clients/hm.svg" alt="H&M">
+            <img src="img/clients/Uniqlo-Logo.png" alt="Uniqlo">
+            <img src="img/clients/shopee.png" alt="Shopee">
+            <img src="img/clients/Lazada.png" alt="Lazada">
+        </div>
+    </section>
+</body>
+</html>
