@@ -104,13 +104,14 @@
         <p><center>Phone: <em>+63 999 123 4567</em></p>
         <p><center>Email: <em>info@email.com</em></p>
 
-        <form action="mailto:your@email.com" method="POST" enctype="text/plain">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="text" name="subject" placeholder="Subject" required>
-            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <form action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <input type="text" name="subject" placeholder="Subject" required><br>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
             <button type="submit">Send Message</button>
         </form>
+
 
         <div class="sponsors">
             <img src="img/clients/tiktok.png" alt="TikTok Shop">
